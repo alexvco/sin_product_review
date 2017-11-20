@@ -27,7 +27,7 @@ end
 # irb(main):006:0> Review.count
 # => 0
 
-# Whenever you are defining an association in Mongoid ask yourseld will I need to fetch this record and work with it on its own outside of the parent,
+# Whenever you are defining an association in Mongoid ask yourself will I need to fetch this record and work with it on its own outside of the parent,
 # if so then you should use a has_many reference association instead of an embedded association.
 # The advantage of an embedded association though is that all the data is right there within one document, 
 # it does not need to perform separate queries in order to fetch the other associated documents.
