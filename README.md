@@ -1,1 +1,1 @@
-sinatra app with mongodb using mongoid
+sinatra app with mongodb using mongoid, embeds_many association
