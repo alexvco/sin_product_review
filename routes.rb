@@ -4,7 +4,7 @@ require './models/product'
 
 Mongoid.load!(File.expand_path(File.join("config", "mongoid.yml")))
 # no need to create or migrate db, as soon as your first record/document is created, your database will be created and you can see it in the mongo shell (type mongo in cli) using: <show dbs> command
-# dont forget to run the mongo server: brew services start mongodb
+# dont forget to run the mongo server: brew services start mongodb 
 
 # To run the app: rackup -p 3000 -s puma
 
