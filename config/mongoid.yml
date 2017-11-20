@@ -21,7 +21,7 @@ production:
       uri: <%= ENV['MONGOHQ_URL'] %>
     username: <%= ENV['MONGOHQ_USERNAME'] %>
     password: <%= ENV['MONGOHQ_PASSWORD'] %>
-    database: sin_dictionary_production
+    database: p<%= ENV['DATABASE_URL'] %>
     options:
       skip_version_check: true
       safe: true
