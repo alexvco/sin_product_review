@@ -1,0 +1,9 @@
+<h1>Products page</h1>
+<!-- http://localhost:3000/products/5a126f09a93e17b6fc38617f -->
+
+<ul>
+<% @products.each do |product| %>
+  <li><a href="/products/<%= product.id %>"><%= product.name %></a></li>
+  <li><%= product.price %></li>
+<% end %>
+</ul>
